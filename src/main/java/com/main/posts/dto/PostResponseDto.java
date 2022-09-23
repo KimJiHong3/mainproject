@@ -1,15 +1,13 @@
 package com.main.posts.dto;
 
 import lombok.Builder;
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
-
-
+@Builder
 @Getter
 @Setter
-public class PostDto {
+public class PostResponseDto {
 
     private String title;
 
@@ -20,6 +18,4 @@ public class PostDto {
     private String end_date;
 
     private String sheet_number;
-
-
 }
